@@ -5,9 +5,7 @@ import asyncio
 from time import strftime, gmtime
 
 KNOWN_DEVICES = {
-    'ac:c0:48:67:a2:cc': 'Viable',
-    '08:a5:df:5a:b7:96': 'Sivert was here',
-    '20:15:82:83:d6:8d': 'Ethan'
+
 }
 
 # Simulate async input using a thread-based fallback
